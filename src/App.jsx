@@ -1,4 +1,5 @@
 import { Header } from "./components/Header";
+import { HelpfulResource } from "./components/HelpfulResource";
 import Section from "./components/Section";
 
 function App() {
@@ -26,6 +27,11 @@ function App() {
             React uses a virtual DOM to optimize updates and rendering. Instead of updating the entire DOM with every change, React calculates the minimal set of changes needed and applies them efficiently.
           </li>
         </ul>
+      </Section>
+      <Section title='Helpful resources'>
+        <HelpfulResource></HelpfulResource>
+        <HelpfulResource></HelpfulResource>
+        <HelpfulResource></HelpfulResource>
       </Section>
     </>
   );
