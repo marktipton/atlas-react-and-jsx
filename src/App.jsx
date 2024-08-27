@@ -19,6 +19,12 @@ function App() {
           <li>
             React has a large and active community, with extensive resources, tools, libraries, and third-party components available.
           </li>
+          <li>
+            React has a robust ecosystem of development tools, including React DevTools for debugging, Create React App for bootstrapping new projects, and libraries like Next.js for server-side rendering.
+          </li>
+          <li>
+            React uses a virtual DOM to optimize updates and rendering. Instead of updating the entire DOM with every change, React calculates the minimal set of changes needed and applies them efficiently.
+          </li>
         </ul>
       </Section>
     </>
