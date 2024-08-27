@@ -11,8 +11,5 @@ import { SocialLinks } from "./components/SocialLinks";
  root.render(
 <React.StrictMode>
   <App />
-  <Greeting />
-  <SocialLinks />
-
 </React.StrictMode>
 );
