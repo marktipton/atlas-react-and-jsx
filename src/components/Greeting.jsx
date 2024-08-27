@@ -1,5 +1,7 @@
 import React from 'react';
-
+import night from '../assets/night.svg';
+import day from '../assets/day.svg';
+import evening from '../assets/evening.svg';
 
 export function Greeting() {
   const time = new Date().getHours();
@@ -7,16 +9,16 @@ export function Greeting() {
   let greetingText = '';
 
   if (time < 6 || time > 21) {
-    imgSource = '../assets/night.svg';
+    imgSource = night;
     greetingText = 'Good Night!';
   } else if (time < 12) {
-    imgSource = '../assets/day.svg';
+    imgSource = day;
     greetingText = 'Good Morning!';
   } else if (time < 17) {
-    imgSource = '../assets/day.svg';
+    imgSource = day;
     greetingText = 'Good Afternoon!';
   } else {
-    imgSource = '../assets/evening.svg';
+    imgSource = evening;
     greetingText = 'Good Evening!';
   }
 
