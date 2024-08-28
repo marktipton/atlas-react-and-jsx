@@ -6,9 +6,9 @@ export function HelpfulResource({ link, label }) {
   return (
     <div className='helpful-resource'>
       {label}
-      <OpenLink>{link}</OpenLink>
+      <OpenLink link={link}></OpenLink>
 
-      <CopyLink>{link}</CopyLink>
+      <CopyLink></CopyLink>
     </div>
   )
 }

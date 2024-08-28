@@ -29,9 +29,9 @@ function App() {
         </ul>
       </Section>
       <Section title='Helpful resources'>
-        <HelpfulResource></HelpfulResource>
-        <HelpfulResource></HelpfulResource>
-        <HelpfulResource></HelpfulResource>
+        <HelpfulResource link='https://www.codecademy.com/learn/react-101' label='Code Academy React Course'></HelpfulResource>
+        <HelpfulResource link='https://www.geeksforgeeks.org/reactjs-introduction/' label='Geeks for Geeks React Intro'></HelpfulResource>
+        <HelpfulResource link='https://www.w3schools.com/react/react_intro.asp' label='W3Schools React Intro'></HelpfulResource>
       </Section>
     </>
   );
