@@ -8,7 +8,7 @@ export function HelpfulResource({ link, label }) {
       {label}
       <OpenLink link={link}></OpenLink>
 
-      <CopyLink></CopyLink>
+      <CopyLink link={link}></CopyLink>
     </div>
   )
 }
