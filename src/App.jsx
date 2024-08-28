@@ -1,4 +1,5 @@
 import { AboutMe } from "./components/AboutMe";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { HelpfulResource } from "./components/HelpfulResource";
 import Section from "./components/Section";
@@ -35,6 +36,7 @@ function App() {
         <HelpfulResource link='https://www.w3schools.com/react/react_intro.asp' label='W3Schools React Intro'></HelpfulResource>
       </Section>
       <AboutMe />
+      <Footer />
     </>
   );
 }
